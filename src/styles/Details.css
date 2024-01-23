@@ -1,4 +1,5 @@
 .details-container {
+  display: flex;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -6,16 +7,16 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  margin-bottom: 15px;
+  margin-right: 15px; /* Add margin to separate image from other content */
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .Status {
@@ -25,4 +26,16 @@ img {
 p {
   color: #555;
   margin-bottom: 8px;
+}
+
+/* For smaller screens, reset the flex direction */
+@media (max-width: 600px) {
+  .details-container {
+    flex-direction: column;
+  }
+
+  img {
+    margin-right: 0; /* Reset margin for image */
+    margin-bottom: 15px; /* Add margin below image for separation */
+  }
 }

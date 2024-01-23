@@ -31,9 +31,12 @@ const DetailsPage = () => {
   const isRunning = show.status === "Running";
 
   return (
+    <>
+       <h1>{show.name}</h1>
     <div className="details-container">
-      <h1>{show.name}</h1>
+  
       <img src={show.image.medium} alt={show.name} />
+      <div>
       <p className="Status">
         <b>{show.status}</b>
       </p>
@@ -49,6 +52,8 @@ const DetailsPage = () => {
         </Link>
       )}
     </div>
+    </div>
+    </>
   );
 };
 
