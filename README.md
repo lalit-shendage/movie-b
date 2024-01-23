@@ -1,9 +1,20 @@
-# React + Vite
+# Movie-booking
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Steps to run page on local machine
 
-Currently, two official plugins are available:
+1. Download repo from https://github.com/lalit-shendage/movie-b this link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# movie-b
+2. Navigate to the movie-app folder 
+3. Open terminal and run npm install on it 
+
+4. After completing last step run 'npm run dev' command on terminal
+
+5. terminal will show you the local link to the page 
+
+### Technologies used
+
+ React, React-router
+
+## Hosted link 
+
+mobie-booking-quadb.netlify.app
