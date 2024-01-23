@@ -1,0 +1,29 @@
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-link:hover {
+  transform: scale(1.05);
+}
+
+.card-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 210px;
+  height: 297px;
+  flex-grow: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
