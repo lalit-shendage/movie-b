@@ -17,4 +17,4 @@
 
 ## Hosted link 
 
-mobie-booking-quadb.netlify.app
+https://mobie-booking-quadb.netlify.app/
